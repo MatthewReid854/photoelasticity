@@ -77,10 +77,11 @@ if __name__ == '__main__':
     # intensity_violins(directory_name, bounding_box = bbox, image_name=strained_image_name)
     # plot_intensities(directory_sup_name='PEC_angle_', angles=['-50','-40','-30','-20','-10','0','10','20','30','40','50'], bounding_box=bbox)
 
-    ## To plot multiple contour plots together, you can pass the ax to contour_plots. The blow example changes gaussian_sigma
+    ## To plot multiple contour plots together, you can pass the ax to contour_plots. The below example changes gaussian_sigma
     # fig, ax = plt.subplots(2, 3, figsize=(10, 8))
     # axes = ax.flatten()
     # for i in range(6):
     #     contour_plots(directory_name=directory_name, strained_image_name=strained_image_name,bounding_box=bbox, gaussian_sigma=i, mask_edges=True, ax=axes[i], hide_colorbar=True, log_scale=False, only_plot_amplitude=True, show_plot=False)
     #     axes[i].set_title("Gaussian Sigma = "+str(i))
+
     # plt.show()
