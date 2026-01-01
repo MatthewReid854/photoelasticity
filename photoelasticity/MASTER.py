@@ -33,15 +33,12 @@ if __name__ == '__main__':
 
     show_plots = False
 
-    directory_name = 'test2' # the directory to save all the images and plots
+    directory_name = 'test' # the directory to save all the images and plots
     unstrained_image_name = 'UNSTRAINED'
     strained_image_name = 'STRAINED'
 
-    # input_path_unstrained=rf'D:\PVST\UNSTRAINED.tiff'
-    # input_path_strained=rf'D:\PVST\STRAINED.tiff'
     input_path_unstrained=rf'C:\Users\mreid\PycharmProjects\photoelasticity\PEC_images\UNSTRAINED.tiff'
     input_path_strained=rf'C:\Users\mreid\PycharmProjects\photoelasticity\PEC_images\STRAINED.tiff'
-
     # image_path_black = rf'D:\PVST\BLACK.tiff' # this is the image with the lens cap on. Optional input.
 
     ## STEP 1. Process the polarised images
