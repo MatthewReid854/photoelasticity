@@ -248,7 +248,7 @@ def contour_plots(directory_name, strained_image_name, bounding_box, gaussian_si
         if ax is not None:
             print('ax is being ignored because only_plot_amplitude is False.'
                   'To plot the amplitude on a specific axis, set only_plot_amplitude=True')
-            handlefigure = True
+        handlefigure = True
         fig, ax = plt.subplots(1, 2, figsize=(18, 7))
         ax[0].imshow(pol0_img, cmap="gray")
 
